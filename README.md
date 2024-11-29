@@ -1,32 +1,191 @@
-Anne Moore Lomibao
-Graphic Designer | Front-End Developer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enmoure !</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; /* Matte Black Background */
+            color: white;
+        }
 
-About Me
-Passionate graphic designer with expertise in creating visually stunning and user-friendly designs. Experienced in both digital and print media.
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
 
-Skills
-Graphic Design
-HTML, CSS, and Bootstrap
-Adobe Photoshop and Illustrator
-Responsive Web Design
-Portfolio
-Portfolio 1
-Car design - Mini Cooper
-Transform your brand with a sleek, modern edge inspired by the iconic Mini Cooper! I specialize in creating dynamic, bold, and visually striking designs that capture attention and leave a lasting impression. Whether it's logos, social media graphics, or custom illustrations, my designs are tailored to match your unique vision, combining creativity and precision for maximum impact. Let’s drive your ideas forward—commission now and stand out in style!
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid black; /* Black Outline for header */
+        }
 
-Portfolio 2
-Witty heart
-Bring your ideas to life with meme-inspired graphic designs that are witty, relatable, and guaranteed to go viral! I create eye-catching visuals that blend humor and creativity, perfect for social media, branding, or personal use. Whether it’s a trendy meme format, custom illustrations, or playful typography, my designs are tailored to engage and entertain your audience. Let’s make your content unforgettable—commission now for designs that are as fun as they are impactful!
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid red; /* Red Border for the profile image */
+            margin-bottom: 15px;
+        }
 
-Portfolio 3
-Showcasing Basketball Player - Michael Jordan
-Take your passion for basketball to the next level with custom graphic designs that showcase your favorite players or your own basketball journey! From dynamic action shots to stylized player portraits, I specialize in bringing the energy of the game to life through bold, high-impact visuals. Whether you want to highlight your favorite team, create a personal brand, or immortalize a standout moment, I’ll craft the perfect design that captures the intensity and spirit of basketball. Let’s slam dunk your vision—commission now for designs that score big!
+        header h1 {
+            font-size: 2.5em;
+            color: red; /* Red text for header */
+            margin: 0;
+        }
 
-Commission Prices
-Logo Design: $50
+        header p {
+            font-size: 1.2em;
+            color: #cccccc; /* Light gray text for subheading */
+        }
 
-Web Page Design: $100
+        .resume-section {
+            margin-top: 40px;
+            border: 2px solid black; /* Black Outline for sections */
+            padding: 10px;
+        }
 
-Social Media Graphics: $30
+        .resume-section h2 {
+            color: red; /* Red text for section headers */
+            border-bottom: 2px solid red;
+            display: inline-block;
+        }
 
-Custom Illustration: $75
+        .resume-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resume-section ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .portfolio-item {
+            width: 30%;
+            background-color: #262626;
+            border: 2px solid black; /* Black border for portfolio items */
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .portfolio-item h3 {
+            color: red;
+            margin: 10px 0;
+        }
+
+        .portfolio-item p {
+            color: #cccccc;
+            font-size: 0.9em;
+            padding: 0 10px 10px;
+        }
+
+        .commission-section {
+            margin-top: 40px;
+            background-color: #262626;
+            padding: 20px;
+            border: 2px solid black; /* Black border for commission section */
+            border-radius: 5px;
+        }
+
+        .commission-section h2 {
+            color: red; /* Red color for commission section heading */
+            border-bottom: 2px solid red;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .commission-item {
+            margin: 10px 0;
+        }
+
+        .commission-item span {
+            font-weight: bold;
+            color: red; /* Red text for prices */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="C:\Users\Aileen Mae Lomibao\Pictures\LOMIBAO, ANNE_OLIV PARANQUE_2304.jpg" alt="Profile Picture">
+            <h1>Anne Moore Lomibao</h1>
+            <p>Graphic Designer | Front-End Developer</p>
+        </header>
+
+        <section class="resume-section">
+            <h2>About Me</h2>
+            <p>
+                Passionate graphic designer with expertise in creating visually stunning and user-friendly designs.
+                Experienced in both digital and print media.
+            </p>
+        </section>
+
+        <section class="resume-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Graphic Design</li>
+                <li>HTML, CSS, and Bootstrap</li>
+                <li>Adobe Photoshop and Illustrator</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
+
+        <section class="resume-section">
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="C:\Users\Aileen Mae Lomibao\Downloads\cooper-1.png" alt="Portfolio 1">
+                    <h3>Car design - Mini Cooper</h3>
+                    <p>Transform your brand with a sleek, modern edge inspired by the iconic Mini Cooper! I specialize in creating dynamic, bold, and visually striking designs that capture attention and leave a lasting impression. Whether it's logos, social media graphics, or custom illustrations, my designs are tailored to match your unique vision, combining creativity and precision for maximum impact. Let’s drive your ideas forward—commission now and stand out in style!</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="C:\Users\Aileen Mae Lomibao\Downloads\backborner.jpg" alt="Portfolio 2">
+                    <h3>Witty heart</h3>
+                    <p>Bring your ideas to life with meme-inspired graphic designs that are witty, relatable, and guaranteed to go viral! I create eye-catching visuals that blend humor and creativity, perfect for social media, branding, or personal use. Whether it’s a trendy meme format, custom illustrations, or playful typography, my designs are tailored to engage and entertain your audience. Let’s make your content unforgettable—commission now for designs that are as fun as they are impactful!</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="C:\Users\Aileen Mae Lomibao\Downloads\migael gordan-1.png" alt="Portfolio 3">
+                    <h3>Showcasing Basketball Player - Michael Jordan</h3>
+                    <p>Take your passion for basketball to the next level with custom graphic designs that showcase your favorite players or your own basketball journey! From dynamic action shots to stylized player portraits, I specialize in bringing the energy of the game to life through bold, high-impact visuals. Whether you want to highlight your favorite team, create a personal brand, or immortalize a standout moment, I’ll craft the perfect design that captures the intensity and spirit of basketball. Let’s slam dunk your vision—commission now for designs that score big!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="commission-section">
+            <h2>Commission Prices</h2>
+            <div class="commission-item">
+                <p>Logo Design: <span>$50</span></p>
+            </div>
+            <div class="commission-item">
+                <p>Web Page Design: <span>$100</span></p>
+            </div>
+            <div class="commission-item">
+                <p>Social Media Graphics: <span>$30</span></p>
+            </div>
+            <div class="commission-item">
+                <p>Custom Illustration: <span>$75</span></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
